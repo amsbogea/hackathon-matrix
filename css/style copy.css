@@ -6,13 +6,33 @@
 }
 
 /* Estilo do menu de navegação */
-.nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+nav {
     background-color: #333;
+    padding: 20px;
+    display: flex;
+    align-items: end;
+   
+
+
+}
+
+.nav-menu {
     list-style: none;  
+    justify-content: center; /* Centraliza o menu horizontalmente */
+    align-items: end;
+    
+    
+    
+}
+
+.nav-menu li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+    display: flex;
+    display: inline;
+    align-items: end;
+    
+   
+    
 }
 
 .nav-menu a {
@@ -27,11 +47,6 @@
 .nav-menu a:hover {
     background-color: #575757;
     border-radius: 5px; /* Bordas arredondadas ao passar o mouse */
-}
-
-.logo-inicial a:hover  {
-    background-color: #575757;
-    border-radius: 40px; /* Bordas arredondadas ao passar o mouse */
 }
 
 /* Estilo do corpo */
