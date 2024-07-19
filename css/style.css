@@ -1,0 +1,39 @@
+/* Reset básico para remover margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #333;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centraliza o menu horizontalmente */
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+.nav-menu a:hover {
+    background-color: #575757;
+    border-radius: 5px; /* Bordas arredondadas ao passar o mouse */
+}
